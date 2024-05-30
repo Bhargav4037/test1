@@ -3,7 +3,7 @@ deployapp is a CLI (Command Line Interface) application written in Go, designed 
 
 ## Table of contents
 
-- [Installation] (#installation)
+- [Installation] (https://github.com/Bhargav4037/test1/README.md#installation)
 - [Building the application] (#building-the-application)
 - [Running the application] (#running-the-application)
 - [Running the unit tests] (#run-the-unit-tests)
