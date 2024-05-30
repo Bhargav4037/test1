@@ -3,12 +3,11 @@ deployapp is a CLI (Command Line Interface) application written in Go, designed 
 
 ## Table of contents
 
-- [Installation. ] (#installation)
+- [Installation] (#installation)
 - [Building the application] (#building-the-application)
 - [Running the application] (#running-the-application)
 - [Running the unit tests] (#run-the-unit-tests)
 
-<a name="installation"></a>
 ## Installation
 
 To install the deployapp application you need to have the [go](https://go.dev/doc/install) installed on your machine.
