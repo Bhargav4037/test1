@@ -41,7 +41,7 @@ gcloud auth application-default login
 ```
 A sign-in screen appears. After you sign in, your credentials are stored in the local credential file used by ADC.
 
-To run the application, give the githubURL of the application that you need to deploy and detect the cloud components to the flag --githubURL ,also give the value to the boolean flag --useAI as shown below.
+To run the application, give the githubURL of the application that you need to deploy and detect the cloud components to the flag --githubURL ,also give the true/false to the boolean flag --useAI as shown below.
 ```sh
 ./deployapp --githubURL <Github URL> --useAI=<boolean value>
 ```
