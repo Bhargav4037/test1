@@ -35,9 +35,9 @@ This will create an executable file named `deployapp` in your project directory.
 
 ## Running the application
 
-To run the application, give the githubURL to the flag --githubURL as shown below, of the application that you need to deploy and detect the cloud components used in it.
+To run the application, give the githubURL of the application that you need to deploy and detect the cloud components to the flag --githubURL ,also give the value to the boolean flag --useAI as shown below.
 ```sh
-./deployapp --githubURL <Github URL>
+./deployapp --githubURL <Github URL> --useAI=<boolean value>
 ```
 
 ## Running the unit tests
