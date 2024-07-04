@@ -1,5 +1,5 @@
-# deployapp
-deployapp is a CLI (Command Line Interface) application written in Go, designed to deploy the applications and detect the cloud components used in that applications.
+# deployApp
+deployApp is a CLI (Command Line Interface) application written in Go, designed to deploy the applications and detect the cloud components used in that applications.
 
 ## Table of contents
 
@@ -28,10 +28,10 @@ To build the application, follow these steps:
 
 3. Build the application:
    ```sh
-   go build -o deployapp
+   go build -o deployApp
    ```
 
-This will create an executable file named `deployapp` in your project directory. 
+This will create an executable file named `deployApp` in your project directory. 
 
 ## Running the application
 
