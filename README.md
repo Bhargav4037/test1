@@ -51,9 +51,7 @@ Please enter your GCP project ID for calling the Vertex AI model (e.g., my-gcp-1
 
 Please enter your GCP project location for calling the Vertex AI model (e.g., us-central1) and press enter:
 ```
-It prompts you whether you need to build the application or not. By entering "yes", It generates the Dockerfile and cloudbuild.yaml file if the cloned application don't have them.
-If they have them for each it ask whether you want to overwrite them or let it be. Based on your response "yes"/"no" to overwrite finally application will have cloudbuild.yaml and Dockerfile.
-After this it builds the docker image and store it in the artifact registry this step may take more time wait for it.
+It prompts you whether you need to build the application or not. By entering "yes" it asks you the project details same as above after entering and pressing enter, It generates the Dockerfile and cloudbuild.yaml file if the cloned application don't have them. If they have them for each it ask whether you want to overwrite them or let it be. Based on your response "yes"/"no" to overwrite finally application will have cloudbuild.yaml and Dockerfile. After this it builds the docker image and store it in the artifact registry of the project that you mentioned in details this step may take more time wait for it.
 
 ## Running the unit tests
 
